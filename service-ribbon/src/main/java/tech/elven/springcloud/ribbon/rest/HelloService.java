@@ -25,6 +25,6 @@ public class HelloService {
     private RestTemplate restTemplate;
 
     public String hello() {
-        return restTemplate.getForObject("http://elven-spring-cloud-serviceA//cloud.elven.tech/serviceA/rest/hello/hello",String.class);
+        return restTemplate.getForObject("http://elven-spring-cloud-serviceA/cloud.elven.tech/serviceA/rest/hello/hello",String.class);
     }
 }
