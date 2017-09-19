@@ -29,20 +29,13 @@ allprojects{
     }
 
     ext {
-        springCloudVersion = 'Finchley.M2'
+        springCloudVersion = 'Dalston.SR3'
     }
 
     dependencies {
         testCompile("junit:junit:${junitVersion}")
         testCompile("org.springframework.boot:spring-boot-starter-test")
         compile("org.springframework.boot:spring-boot-starter-undertow")
-//        compile("org.springframework.boot:spring-boot-starter")
-//        compile("org.springframework.boot:spring-boot-starter-aop")
-//        compile("org.springframework.boot:spring-boot-starter-web"){
-//            exclude module: "spring-boot-starter-tomcat"
-//        }
-//        compile("org.springframework.boot:spring-boot-starter-undertow")
-//        compile("org.springframework.boot:spring-boot-starter-actuator")
     }
 
     dependencyManagement {
