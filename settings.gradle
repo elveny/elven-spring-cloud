@@ -3,4 +3,5 @@ include 'eureka'
 include 'serviceA'
 include 'service-ribbon'
 include 'service-feign'
+include 'eureka-server'
 
