@@ -1,7 +1,6 @@
 rootProject.name = 'elven-spring-cloud'
-include 'eureka'
+include 'eureka-server'
 include 'serviceA'
 include 'service-ribbon'
 include 'service-feign'
-include 'eureka-server'
 
